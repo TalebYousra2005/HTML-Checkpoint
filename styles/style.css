@@ -1,0 +1,221 @@
+/* dark #0f0e1b
+   light #2b2a3b */
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+/* styling the header*/
+.header{
+    background-color: #0f0e1b;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+.brand{
+    display: inline-block;
+    color: #fefefe;
+    position: relative;
+    left: 100px;
+}
+.nav-bar{
+    display: inline-block;
+}
+.nav-list{
+    display: flex;
+    position: relative;
+    left: 600px;
+    list-style-type: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: #fefefe;
+}
+.nav-item{
+    margin: 0px 25px;
+    font-size: 20px;
+}
+
+
+
+
+/* styling the hero*/
+.hero{
+    background-color: #2b2a3b;
+    padding: 30px;
+    color: #fefefe;
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.icons{
+    margin: 0px 50px;
+}
+.social-link{
+    color: #fefefe;
+    text-decoration: none;
+    border: 2px solid tomato;
+    border-radius: 50%;
+    size: 50px;
+    padding: 15px;
+    margin: 0px 15px;
+}
+.hero-left-content{
+    width: 45%;
+    padding-top: 200px;
+}
+.hero-right-content{
+    text-align: right;
+    padding: 25px;
+    padding-top: 150px;
+}
+.hero-left-content h1{
+    font-size: 40px;
+    margin: 30px 55px;
+
+}
+.hero-left-content p{
+    font-size: 25px;
+    margin-left: 55px;
+}
+
+
+/* styling the about section*/
+.about{
+    background-color: #0f0e1b;
+    padding: 50px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    color: #fefefe;
+    position: relative;
+}
+.about-top{
+    text-align: center;
+    margin: 20px 350px;
+    display: block;
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+    padding: 30px;
+}
+.about-left,.about-right{
+    width: 45%;
+    padding: 10px;
+}
+.info-table{
+    text-align: left;
+}
+.info-table h1{
+    font-size: 20px;
+    color: tomato;
+}
+.about-left{
+    position: relative;
+    text-align: center;
+}
+
+/* styling the work section*/
+
+.work{
+    background-color: #2b2a3b;
+    color: #fefefe;
+    text-align: center;
+    padding: 40px;
+}
+.work h1{
+    margin-top: 0px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 300px 300px;
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 900px;
+    margin: 50px 330px;
+}
+.grid-el{
+    background-color: #0f0e1b;
+    text-align: left;
+    padding: 20px;
+    color: #fefefe;
+    border: 2px solid tomato;
+}
+.work.icon{
+    width: 40px;
+    height: 40px;
+    color: red;
+}
+
+/* styling the contact section*/
+.contact-info{
+    display: block;
+    color: #fefefe;
+    background-color: transparent;
+    border: 2px solid tomato;
+    width: 600px;
+    margin: 20px 0px;
+    padding: 10px;
+}
+.contact label{
+    color: #fefefe;
+}
+.contact div{
+    background-color: #0f0e1b;
+    padding: 35px;
+}
+.contact form{
+    width: 700px;
+    margin: 10px 420px;
+}
+.contact div h1{
+    margin-top: 0px;
+    size: 30px;
+    color: #fefefe;
+    text-align: center;
+}
+.submit{
+    background-color: transparent;
+    border: 2px solid tomato;
+    margin: 10px 280px;
+    padding: 15px;
+    color: #fefefe;
+}
+
+/*styling the footer*/
+.footer{
+    background-color: #2b2a3b;
+    color: #fefefe;
+    text-align: center;
+    padding: 20px;
+}
+.footer h1{
+    margin-top: 0px;
+}
+.footer p{
+    width: 500px;
+    margin: 15px 550px;
+}
+.icon{
+    color: #fefefe;
+    text-decoration: none;
+    border-color: #0f0e1b;
+    border-radius: 50%;
+    background-color: #0f0e1b;
+    size: 50px;
+    padding: 15px;
+    margin: 0px 15px;
+}
+.footer-icons{
+    margin-top: 50px;
+}
